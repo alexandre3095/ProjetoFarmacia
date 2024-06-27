@@ -70,9 +70,9 @@ header .imgCar{
     /* section */
     width: 100%;
     display: flex;
-    border-top: 8px solid black;
+    
     justify-content: center;
-    background-color: rgb(86, 85, 85);
+    background-color: rgb(246, 241, 241);
 }
 .ItemsCatalago{
     /* div */
@@ -87,18 +87,42 @@ header .imgCar{
     list-style-type: none;
 }
 .list{
-    /* li */
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 3.5rem;
-    margin-left: 4rem;
-    background-color: #c9c8c8
-
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
 }
 .list:hover{
     transform: scale(1.05)
 }
 .anchorList{
 /* ancoras */
-    
+    display: inline-block;
+    width: 10rem; 
+    height: 10rem; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    text-align: center; 
+    line-height: 100px; 
+    margin: 0 2rem 0 0;
+    background-color: #e3e0e0; 
+    position: relative; 
+}
+
+.title-story{
+    /* Titulo de cada Ancora */
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 2rem 0 2rem;
+    margin-top: 0.5rem;
+}
+
+.imgItem{
+    width: 80% ;
+    margin-top: 1rem;
+}
+#suplemento{
+    width: 60%;
 }
