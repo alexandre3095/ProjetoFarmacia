@@ -1,0 +1,44 @@
+.sectionProduct{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px solid red;
+    justify-content: center;
+}
+.productContainer{
+    width: 80%;
+    display: flex;
+    min-height: 50%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.products{
+    display: flex;
+    border: 2px solid blue;
+    width: 280px;
+    height: 240px;
+    margin: 2rem 2rem;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productImg{
+
+}
+.nameProduct{
+
+}
+.descriptionProduct{
+
+}
+.valueProduct{
+
+}
+.buyBtn{
+
+}
