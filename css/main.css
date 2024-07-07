@@ -70,9 +70,9 @@ header .imgCar{
     /* section */
     width: 100%;
     display: flex;
-    
     justify-content: center;
     background-color: rgb(246, 241, 241);
+    flex-wrap: wrap;
 }
 .ItemsCatalago{
     /* div */
