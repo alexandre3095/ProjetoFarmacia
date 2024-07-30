@@ -1,0 +1,19 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 440px); /* Três colunas de 240px cada */
+    grid-template-rows: repeat(2, 240px); /* Duas linhas de 240px cada */
+    gap: 10px;
+    border: 1px solid blue;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gridCards1, .gridCards2, .gridCards3, .gridCards4, .gridCards5, .gridCards6 {
+    background-color: #d8dcd6;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin: 1rem;
+    }

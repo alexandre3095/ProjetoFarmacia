@@ -8,6 +8,7 @@ body{
 }
 /* Area Header */
 .header{
+    position: fixed;
     width: 100%;
     display: flex;
     background-color: rgb(63, 62, 62);
@@ -16,6 +17,9 @@ body{
     align-items: center;
     padding: 0 10rem 0 10rem;
     flex-wrap: wrap;
+    z-index: 1;
+    
+    
     
 }
 .logoImg{
@@ -76,6 +80,7 @@ header .imgCar{
     justify-content: center;
     background-color: rgb(246, 241, 241);
     flex-wrap: wrap;
+    padding-top: 5rem;
 }
 .ItemsCatalago{
     /* div */
@@ -128,4 +133,12 @@ header .imgCar{
 }
 #suplemento{
     width: 60%;
+}
+
+/* Footer area */
+.footerArea{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    margin-top: 2rem;
 }
